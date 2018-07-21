@@ -1,0 +1,279 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#topBar {
+
+   width: 100%;
+   height: 85px;
+   background: -webkit-gradient(linear, left top, left bottom, from(#1589FF), to(#5CB3FF));
+   background: -webkit-linear-gradient(#1589FF, #5CB3FF);
+   background: -o-linear-gradient(#1589FF, #5CB3FF);
+   background: linear-gradient(#1589FF, #5CB3FF);   
+
+}
+
+#top-logo {
+
+   margin-top: 8px;
+   margin-left: 8px;
+   float: left;
+   font-weight: bold;
+   font-size: 200%;
+   color: white;
+}
+
+.clear {
+
+   clear: both;
+
+}
+
+#menuBar {
+
+   width: 100%;
+   height: 35px;
+   background-color: white;
+   float: left;
+   border-bottom: 1px black solid;
+   color: black;
+   margin: 0px;
+}
+
+#menuInfoTab {
+   margin: 0px;
+   float: left;
+   font-size: 120%;
+   font-weight: bold;
+   padding-top: 4px;
+   padding-left: 8px;
+   padding-right: 20px;
+
+}
+
+#menuInfoTab a:link {
+
+   color: black;
+   text-decoration: none;
+
+}
+
+#menuInfoTab a:visited {
+
+   color: black;
+   text-decoration: none;
+
+}
+
+#menuInfoTab a:hover {
+
+   color: #1F45FC;
+   text-decoration: underline;
+
+}
+
+#videoSectionContainer {
+
+   width: 1280px;
+   margin: 0 auto;
+   float: left;
+
+}
+
+#videoContainer {
+
+   float: left;
+   margin-left: 15px;
+}
+
+#boxContainer {
+   position: relative;
+   top: 50px;
+   border: 1px black solid;
+   width: 1280px;
+   height: 723px;
+
+}
+
+#playButton {
+
+   margin-top: 60px;
+   margin-left: 20px;
+   font-size: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+
+#forwardButton {
+
+   margin-top: 60px;
+   margin-left: 20px;
+   font-size: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+
+#backwardButton {
+
+   margin-top: 50px;
+   margin-left: 20px;
+   background-color: blue;
+   color: white;
+   font-size: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+
+}
+
+#backwardButton1 {
+
+   margin-top: 60px;
+   margin-left: 20px;
+   font-size: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+
+#playScript {
+
+   font-color: black;
+   fofnt-weight: bold;
+   font-size: 130%;
+   position: relative;
+   top: 10px;
+   margin-left: 10px;
+   clear: both;
+
+}
+
+#playSpeed {
+
+   position: relative;
+   left: 10px;
+   width: 50px;
+
+}
+
+#entered {
+
+   margin-left: 10px;
+   position: relative;
+   top: -3px;
+
+}
+
+#conceptSectionContainer {
+
+   float: right;
+   width: 400px;
+   height: 1000px;
+   background-color: white;
+   border-left: 1px black solid;
+   overflow: auto;
+}
+
+#conceptsText {
+
+   font-weight: bold;
+   font-size: 200%;
+   margin-top: 10px;
+   margin-left: 10px;
+
+}
+
+#leftConcepts {
+
+   font-size: 150%;
+   float: left;
+
+}
+
+#rightConcepts {
+   font-size: 150%;
+   float: left;
+}
+
+.conceptListElement {
+
+   list-style-type: none;
+
+}
+
+#boundingBoxContainer {
+
+   position: absolute;
+   top: 0px;
+   width: 100%;
+   height: 90%
+}
+
+#resizeAndDrag {
+
+   width: 500px;
+   height: 500px;
+   background-color: transparent;
+}
+
+#dragBox {
+
+   margin: 0px;
+   background-color: transparent;
+   border: 2px coral solid;
+   border-style: ridge;
+
+}
+
+/*
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+*/
+
